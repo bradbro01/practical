@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="author"
+      content="Bishal">
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      href="Logo.png">
+    <style>
+      body {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      
+      h1,
+      b {
+        text-decoration: underline;
+      }
+      
+      .table-a {
+        margin: auto;
+        width: 50%;
+        border-collapse: collapse;
+      }
+      
+      .headings {
+        background-color: rgba(255,0,255,0.3);
+      }     
+      
+      .align {
+        text-align: left;
+        padding-left: 5px;
+        background-color: rgba(0,255,255,0.3);
+      }
+      
+      .cells {
+        background-color: rgba(255,255,0,0.3);
+      }
+      
+      .total {
+        text-align: right;
+        background-color: rgb(230,230,230);
+        padding-right: 10px;
+      }
+      
+      td[colspan] {
+        text-align: left;
+        background-color: rgb(230,230,230);
+        padding-left: 10px;
+      }
+      
+      td,
+      th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      
+      .table-b {
+        margin: auto;
+        width: 50%;
+        border: 2px solid rgb(100,100,100);
+        border-collapse: collapse;
+      }
+      
+      .border-a,
+      .border-b {
+        border: 2px solid rgb(100,100,100);
+      }
+      
+      .border-a {
+        background-color: rgba(0,0,255,0.3);
+      }
+      
+      .border-b {
+        background-color: rgb(230,230,230);
+      }
+      
+      hr {
+        margin-bottom: 0px;
+      }
+      
+      footer {
+        background-color: dodgerblue;
+        height: 80px;
+      }
+      
+      .outro {
+        color: white;
+      }
+      </style>
+    <title>My 10th Marksheet</title>  
+  </head>
+  <body>
+    <h1>My 10th Marksheet</h1><br><b>Seat No. - B8206550<br><br>Name - Bhowmick Bishal Biplab</b><br><br>
+    <table
+      border="1px solid rgb(100,100,100)"
+      class="table-a">
+      <tr>
+        <th class="headings">Subject Name</th>
+        <th class="headings">Board Exam Marks (Out of 80)</th>
+        <th class="headings">Internal Marks (Out of 20)</th>
+        <th class="headings">Total Marks (Out of 100)</th>
+        <th class="headings">Suject wise Grade</th>
+      </tr>
+      <tr>
+        <td class="align">04 ENGLISH FL</td>
+        <td class="cells">63</td>
+        <td class="cells">18</td>
+        <td class="cells">081</td>
+        <td class="cells">A2</td>
+      </tr>
+      <tr>
+        <td class="align">10 SOCIAL SCIENCE</td>
+        <td class="cells">55</td>
+        <td class="cells">15</td>
+        <td class="cells">070</td>
+        <td class="cells">B2</td>
+      </tr>
+      <tr>
+        <td class="align">11 SCIENCE</td>
+        <td class="cells">59</td>
+        <td class="cells">19</td>
+        <td class="cells">078</td>
+        <td class="cells">B1</td>
+      </tr>
+      <tr>
+        <td class="align">12 STANDARD MATHS</td>
+        <td class="cells">73</td>
+        <td class="cells">18</td>
+        <td class="cells">091</td>
+        <td class="cells">A1</td>
+      </tr>
+      <tr>
+        <td class="align">13 GUJARATI SL</td>
+        <td class="cells">33</td>
+        <td class="cells">16</td>
+        <td class="cells">049</td>
+        <td class="cells">C2</td>
+      </tr>
+      <tr>
+        <td class="align">14 HINDI SL</td>
+        <td class="cells">54</td>
+        <td class="cells">17</td>
+        <td class="cells">071</td>
+        <td class="cells">B1</td>
+      </tr>
+      <tr>
+        <td class="total">Grand Total</td>
+        <td colspan="4">440 (FOUR HUNDRED FORTY)</td>
+      </tr>
+    </table><br>
+    <table class="table-b">
+      <tr>
+        <th class="border-a">Overall Grade</th>
+        <th class="border-a">Percentile Rank</th>
+      </tr>
+      <tr>
+        <td class="border-b">B1</td>
+        <td class="border-b">85.63</td>
+      </tr>
+    </table><br><br><br>
+    <hr>
+    <footer><br><span class="outro"><a href="https://gseb.org/Result/SSCIndex">Source</a><br><br>Created By Bishal&trade;</span></footer>
+  </body>
+</html>
