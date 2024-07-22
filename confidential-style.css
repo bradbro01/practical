@@ -1,0 +1,141 @@
+@keyframes lineThrough {
+  from {text-decoration-line: none;}
+  to {text-decoration-line: line-through;}
+}
+
+@keyframes fade-in {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+
+@keyframes fade-out {
+  from {opacity: 100%;}
+  to {opacity: 0%;}
+}
+
+.bg {
+  background-image: url("birthday-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+	text-align: center;
+	opacity: 0%;
+  animation: fade-in 1s ease-in 2s 1 normal forwards running;
+}
+
+.strike {
+  animation:
+   lineThrough 1s ease-in 4s 1 normal forwards running,
+   fade-out 1s ease-in 6s 1 normal forwards running;
+  }
+
+.plural {
+  display: none;
+  opacity: 0%;
+  animation: fade-in 1s ease-in 0s 1 normal forwards running;
+}
+
+.text {
+	text-align: center;
+  font-size: 1.17em;
+  animation: fade-out 1s ease-in 0s 1 normal forwards paused;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  opacity: 0%;
+  animation: fade-in 1s ease-in 0s 1 normal forwards running;
+}
+
+.text1 {animation-delay: 9s;}
+
+.text2 {animation-delay: 11s;}
+
+.text3 {animation-delay: 13s;}
+
+.text4 {
+  margin:auto;
+  border: 2px solid black;
+  padding: 3px;
+  animation-delay: 15s;
+}
+
+.question {
+  display: none;
+  opacity: 0%;
+  animation: fade-in 1s ease-in 0s 1 normal forwards paused;
+}
+
+fieldset {width: 80%; margin: auto; text-align: center;}
+
+legend {text-align: center;}
+
+.ques {font-size: 1.25em; font-weight: bold;}
+
+.box {width: max-content; margin: auto; text-align: left;}
+
+.hint {
+	font-size: 1.1em;
+	display: none;
+	opacity: 0%;
+	animation: fade-in 1s ease-in 0s 1 normal forwards paused;
+}
+
+.nextQues {
+	display: none;
+	opacity: 0%;
+	animation: fade-in 1s ease-in 0s 1 normal forwards paused;
+	width: max-content;
+	margin: auto;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: white;
+}
+
+#nextQ1 {background: rgb(170, 170, 255);}
+
+#nextQ2 {background: rgb(85, 85, 255);}
+
+#nextQ3 {background: rgb(0, 0, 255);}
+
+#meme1 {display: none; width: 50%; height: auto; margin: auto;}
+
+.chess-img {display: block; margin-left: auto; margin-right: auto; width: 80%;}
+
+iframe {display: block; width: 80%; height: auto; margin: auto;}
+
+.newDiv {
+  display: none;
+  text-align: center;
+  font-size: 1.17em;
+}
+.extraText {
+  opacity: 0%;
+  animation: fade-in 1s ease-in 0s 1 normal forwards paused;
+}
+
+h2 {animation-delay: 47s;}
+
+#text5 {animation-delay: 49s;}
+
+#text6 {animation-delay: 55s;}
+
+#text7 {animation-delay: 60s;}
+
+#text8 {animation-delay: 65s;}
+
+hr {margin-bottom: 0px;}
+
+footer {
+  background-color: dodgerblue;
+  height: 80px;
+}
+
+.outro {color: white; font-size: 16px;}
